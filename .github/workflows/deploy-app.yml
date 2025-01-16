@@ -25,7 +25,7 @@ jobs:
           python -m venv pyenv
           source pyenv/bin/activate
           pip install -r requirements.txt
-
+          
       - name: Build static Shiny app
         run: |
           source pyenv/bin/activate
